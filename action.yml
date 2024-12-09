@@ -38,3 +38,5 @@ inputs:
   ha:
     description: Create spare machines that increases app availability (default false)
     default: false
+  deploy_options:
+    description: Additional options to pass to the Fly deploy command at creation
